@@ -8,26 +8,95 @@
       content="Обучение html, первая web-страница, обучающий курс html/css"
     />
     <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
-    <title>Домашнее задание №4.1</title>
+    <title>Домашнее задание № 6</title>
   </head>
   <body>
-    <!-- Homework 4.1 -->
-    <h1>Домашнее задание №4</h1>
-    <ol>
-      <li><a href="#">Овощи</a></li>
-      <li>
-        <a href="fruit.html">Фрукты</a>
+    <!-- Homework 6 -->
+<h1>Домашнее задание №6</h1>
+    
+  <form action="" method="GET">
+<fieldset>
+<legend><b>Личные данные:</b></legend> 
+  <p>
+    <label for="name">Имя:</label> <br>
+    <input type="text" name="name" id="name" placeholder="Введите имя">
+  </p>
+  <p>
+    <label for="email">Email:</label> <br>
+    <input type="text" name="email" id="email" placeholder="Введите email">
+  </p>
+  <p>
+    <label for="login">Ваш логин:</label> <br>
+    <input type="text" name="login" id="login" placeholder="Введите логин">
+  </p>
+  <p>
+    <label for="password">Ваш пароль:</label> <br>
+    <input type="password" name="password" id="password" placeholder="Введите пароль">
+  </p>
 
-        <ul>
-          <li>Яблоки</li>
-          <li>Груши</li>
-          <li>Апельсины</li>
-          <li>Бананы</li>
-        </ul>
-      </li>
-      <li><a href="#">Выпечка</a></li>
-      <li><a href="#">Крупа</a></li>
-      <li><a href="#">Напитки</a></li>
-    </ol>
+</fieldset>
+
+<fieldset>
+<legend><b>Адрес и способ доставки:</b></legend>
+<p>
+<label for="address">Введите адрес:</label> <br>
+<input type="text" name="address" id="address" placeholder="Введите адрес доставки">
+</p>
+<p>
+  <label for="delivery">Выберите способ доставки:</label> <br>
+    <select name="delivery" id="delivery">
+      <option value="del1">Самовывоз</option>
+      <option value="del2">Доставка курьером</option>
+      <option value="del3">Доставка почтовыми службами</option>
+      <option value="del1">Доставка самолетом</option>
+    </select>
+</p>
+</fieldset>
+
+<fieldset>
+  <legend><b>Выберите способ оплаты:</b></legend>
+  <p>
+      <label for="payment1">Оплата наличными</label>
+        <input type="radio" name="payment" id="payment1" checked><br>
+      <label for="payment2">Оплата картами Visa/MC</label>
+        <input type="radio" name="payment" id="payment2"><br>
+      <label for="payment3">Безналичная оплата</label>
+        <input type="radio" name="payment" id="payment3">
+  </p>
+</fieldset>
+
+<fieldset>
+  <legend><b>Уведомление:</b></legend>
+  <p>
+        <label for="notification1">Позвонить за час до прибытия</label>
+          <input type="checkbox" name="notification" id="notification1"><br>
+        <label for="notification2">Отправить трекер товара на почту</label>
+          <input type="checkbox" name="notification" id="notification2" checked>
+  </p>
+</fieldset>
+<p>
+  <input type="submit" value="Отправить"/>
+  <input type="reset" value="Сбросить"/>
+</p>
+</form>
+
+<!-- Homework 7 -->
+<hr>
+<h1>Домашнее задание №7</h1>
+
+<p>
+  <code>
+    &lt;html&gt;Copyright&copy;&lt;&sol;html&gt;
+  </code>
+</p>
+<p>
+  &#10006;Закрыто
+</p>
+<p>
+  &rarr;Выход
+</p>
+<p>
+  &euro;2000
+</p>
+<hr>
   </body>
-</html>
