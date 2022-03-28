@@ -1,0 +1,13 @@
+@font-face {
+  font-family: BadScript;
+  src: url("../fonts/BadScript-Regular.eot") format("eot"),
+    url("../fonts/BadScript-Regular.ttf") format("ttf"),
+    url("../fonts/BadScript-Regular.woff") format("woff"),
+    url("../fonts/BadScript-Regular.woff2") format("woff2");
+}
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
+p {
+  font-family: "Bad Script", cursive;
+  font-size: 16px;
+}
