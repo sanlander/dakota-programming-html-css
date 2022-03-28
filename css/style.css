@@ -1,13 +1,20 @@
-@font-face {
-  font-family: BadScript;
-  src: url("../fonts/BadScript-Regular.eot") format("eot"),
-    url("../fonts/BadScript-Regular.ttf") format("ttf"),
-    url("../fonts/BadScript-Regular.woff") format("woff"),
-    url("../fonts/BadScript-Regular.woff2") format("woff2");
+#hw-11-1 {
+  color: red;
+  font-weight: bold;
 }
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+.block-1 > p {
+  color: green;
+}
 
-p {
-  font-family: "Bad Script", cursive;
-  font-size: 16px;
+.block-2 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  color: blue;
 }
