@@ -1,20 +1,74 @@
-#hw-11-1 {
-  color: red;
-  font-weight: bold;
+/* div {
+  margin: 50px auto;
 }
-.block-1 > p {
-  color: green;
+
+.block-1 {
+  width: 150px;
+  height: 150px;
+  background: red;
+}
+.block-1:hover {
+  animation: hw 2s infinite;
+}
+
+@keyframes hw {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .block-2 {
-  font-size: 18px;
-  font-style: italic;
+  width: 150px;
+  height: 150px;
+  background: blue;
 }
-
-.one {
-  color: red;
+.block-2:hover {
+  transition: 2s;
+  background: yellow;
+  width: 250px;
 }
-
-.two {
-  color: blue;
+.block-3 {
+  width: 150px;
+  height: 150px;
+  background: green;
+  transition: 2s;
+}
+.block-3:hover {
+  transform: scale(1.5);
+}
+*/
+.block-4 {
+  width: 150px;
+  animation: newanim 15s infinite;
+}
+@keyframes newanim {
+  0% {
+    border-radius: 0;
+    background: blue;
+    height: 150px;
+  }
+  25% {
+    border-radius: 100%;
+    background: blue;
+    border-color: blue;
+    height: 150px;
+  }
+  50% {
+    background: green;
+    border-radius: 20px 0 20px 0;
+    border-color: green;
+    height: 150px;
+  }
+  75% {
+    background: orange;
+    border-radius: 0;
+    border: 3px solid;
+    height: 150px;
+  }
+  100% {
+    background: orange;
+    border-radius: 0;
+    border: 3px solid;
+    height: 100px;
+  }
 }
